@@ -1,0 +1,29 @@
+{
+     "name": "ashleyhindle/php-mcp-server",
+    "description": "MCP Server written in PHP",
+    "version": "0.0.1",
+    "keywords": [
+        "php",
+        "mcp"
+    ],
+    "homepage": "https://github.com/ashleyhindle/php-mcp-server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashley Hindle",
+            "email": "ashley@hindlepod.com",
+            "role": "Weird Bloke"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^3.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    }
+}
